@@ -1,11 +1,11 @@
 import React from "react";
 
-export default (props) => (
+const Menu = (props) => (
   <nav className="navbar navbar-inverse bg-inverse">
     <div className="container">
       <div className="navbar-header">
-        <a className="navbar-brand" href="#">
-          <i className="fa fa-calendar-check-o"></i>TodoApp
+        <a className="navbar-brand" href="#/todos">
+          <i className="fa fa-calendar-check-o"></i> TodoApp
         </a>
       </div>
 
@@ -22,3 +22,5 @@ export default (props) => (
     </div>
   </nav>
 );
+
+export default Menu;

@@ -32,7 +32,7 @@ module.exports = {
         loader: "babel-loader",
         exclude: /node_modules/,
         options: {
-          presets: ["es2015", "react", "preset-env"],
+          presets: ["react", "preset-env"],
           plugins: ["transform-object-rest-spread"],
         },
       },
